@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="runtime">
+      <UniqueIdentifier>{4de2993a-1d7f-403a-b98f-a9676b019e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\base">
+      <UniqueIdentifier>{f5cb2430-f148-43b6-97bc-54c638ed2067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runtime\impl">
+      <UniqueIdentifier>{fac3ed05-83fc-4f26-b9c6-a30e3890caec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\runtime.h">
+      <Filter>runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\const.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\define_new.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\define_type.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\inception.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\init_loader.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\leak.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\object.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\predefine.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\preinclude.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\runtime_helper.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\spin_lock.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\throw.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\alloc.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\alloc_interface.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\alloc_loader.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\atomic64.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\impl\mem_list.h">
+      <Filter>runtime\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\define_symbol.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\runtime\base\typeid.h">
+      <Filter>runtime\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gcrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\pre_loader.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\spin_lock.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\alloc.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\init_loader.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\leak.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\mem_list.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\runtime\impl\inception.cpp">
+      <Filter>runtime\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
